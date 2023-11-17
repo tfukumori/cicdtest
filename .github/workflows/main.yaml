@@ -6,5 +6,6 @@ jobs:
   job:
     runs-on: ubuntu-latest
       steps:
-        -run: echo hello
+        -name: test
+         run: echo hello
 
